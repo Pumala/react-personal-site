@@ -9,8 +9,8 @@ const Contact = () => {
         <section className="contact">
         <Header />
         <div className="contact-wrapper">
-            <a target="_blank" href="https://www.linkedin.com/in/carolyn-lam-9b719b128/">
-                <img src={linkedInImg} alt="linkedin image" />
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/carolyn-lam-9b719b128/">
+                <img src={linkedInImg} alt="linkedin" />
             </a>
             <Quote />
         </div>

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import './Projects.scss';
 import reactPlaygroundImg from '../../images/react-playground-app.png';
 import beerDashImg from '../../images/beer-dash-app.png';
@@ -28,25 +27,25 @@ const Projects = () => {
         <h1>Side React.js Projects</h1>
         <ul>
             <li>
-                <img src={reactPlaygroundImg} alt="react playground app image" />
+                <img src={reactPlaygroundImg} alt="react playground app" />
                 <p><span>React Playground:</span> app featuring mini fun apps that users can try out</p>
                 <div className="button-wrapper">
-                    <a target="_blank" href="https://github.com/Pumala/react-playground">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Pumala/react-playground">
                         <button>Repo</button>
                     </a>
-                    <a target="_blank" href="http://iamclamclam.com/react-playground/#/">
+                    <a target="_blank" rel="noopener noreferrer" href="http://iamclamclam.com/react-playground/#/">
                         <button>Demo</button>
                     </a>
                 </div>
             </li>
             <li>
-                <img src={beerDashImg} alt="beer dash app image" />
+                <img src={beerDashImg} alt="beer dash app" />
                 <p><span>Beer Dash:</span> app consuming a free beer api where users can search for beers</p>
                 <div className="button-wrapper">
-                    <a target="_blank" href="https://github.com/Pumala/beer-dash">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Pumala/beer-dash">
                         <button>Repo</button>
                     </a>
-                    <a target="_blank" href="https://shrouded-ridge-76758.herokuapp.com/#/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://shrouded-ridge-76758.herokuapp.com/#/">
                         <button>Demo</button>
                     </a>
                 </div>
@@ -55,13 +54,13 @@ const Projects = () => {
         <h2>Previous Personal Website</h2>
         <ul>
             <li>
-                <img src={personalSiteImg} alt="old personal site image" />
+                <img src={personalSiteImg} alt="old personal site" />
                 <p><span>Personal Website:</span> app showcasing past projects</p>
                 <div className="button-wrapper">
-                    <a target="_blank" href="https://github.com/Pumala/pumala.github.io">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Pumala/pumala.github.io">
                         <button>Repo</button>
                     </a>
-                    <a target="_blank" href="http://iamclamclam.com/">
+                    <a target="_blank" rel="noopener noreferrer" href="http://iamclamclam.com/">
                         <button>Demo</button>
                     </a>
                 </div>

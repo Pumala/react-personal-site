@@ -14,7 +14,7 @@ const About = () => {
                 I'm away from my computer, you can find me climbing stairs, drinking a refreshing cold beer out
                 on the porch, exploring the outdoors, or coming up with a new melody.
             </p>
-            <img src={faceImg} alt="black and white face image" />
+            <img src={faceImg} alt="black and white face" />
         </div>
     </section>
     );
