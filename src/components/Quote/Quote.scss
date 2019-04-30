@@ -1,0 +1,13 @@
+.quote {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 450px;
+    .text {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 2.5em;
+    }
+    .author {
+        font-size: 16px;
+    }
+}

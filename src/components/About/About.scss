@@ -1,0 +1,32 @@
+.about {
+    height: 100%;
+    width: 100%;
+    color: #222;
+    text-align: center;
+    .about-wrapper {
+        padding: 85px 20px 20px 20px;
+        h1 {
+            margin: 0;
+            color: #222;
+        }
+        p {
+            line-height: 2.5em;
+        }
+        img {
+            max-width: 200px;
+            margin: 20px auto;
+        }
+    }
+}
+
+@media screen and (min-width: 740px) {
+    .about {
+        .about-wrapper {
+            width: 740px;
+            margin: 0 auto;
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}

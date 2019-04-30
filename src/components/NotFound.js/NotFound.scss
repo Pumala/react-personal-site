@@ -1,0 +1,16 @@
+.not-found {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 40%;
+    text-align: center;
+    color: #222;
+    padding: 10px;
+    h1 {
+        margin-bottom: 20px;
+    }
+    span {
+        font-weight: bold;
+    }
+}
