@@ -12,9 +12,9 @@ const Quote = () => {
     useEffect(() => {
         const getQuote = async () => {
 
-            // const res = await axios.get(`${CONSTANTS.CORS_API}${CONSTANTS.QUOTE_API}/?method=getQuote&lang=en&format=json`);
+            const res = await axios.get(`${CONSTANTS.CORS_API}${CONSTANTS.QUOTE_API}/?method=getQuote&lang=en&format=json`);
 
-            const res = await axios.get(`${CONSTANTS.QUOTE_API}/?method=getQuote&lang=en&format=json`);
+            // const res = await axios.get(`${CONSTANTS.QUOTE_API}/?method=getQuote&lang=en&format=json`);
 
             try {
                 // console.log('res quote:', res.data);
