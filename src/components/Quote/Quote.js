@@ -9,19 +9,28 @@ const Quote = () => {
 
     const [author, setAuthor] = useState('');
 
+    const defaultQuote = {
+        text: 'The greatest obstacle to connecting with our joy is resentment.',
+        author: 'Pema Chodron'
+    }
+
     useEffect(() => {
         const getQuote = async () => {
 
-            const res = await axios.get(`${CONSTANTS.CORS_API}${CONSTANTS.QUOTE_API}/?method=getQuote&lang=en&format=json`);
-
-            // const res = await axios.get(`${CONSTANTS.QUOTE_API}/?method=getQuote&lang=en&format=json`);
-
             try {
-                // console.log('res quote:', res.data);
-                setText(res.data.quoteText);
-                setAuthor(res.data.quoteAuthor);
+                const res = await axios.get(`${CONSTANTS.CORS_API}${CONSTANTS.QUOTE_API}/?method=getQuote&lang=en&format=json`);
+
+                if (res.data && res.data.quoteText) {
+                    setText(res.data.quoteText);
+                    setAuthor(defaultQuote.author ? defaultQuote.author : 'Anonymous');
+                } else {
+                    setText(defaultQuote.text);
+                    setAuthor(defaultQuote.author);
+                }
+
             } catch (err) {
-                // console.log('err', err);
+                setText(defaultQuote.text);
+                setAuthor(defaultQuote.author);
             }
 
         }
@@ -31,6 +40,7 @@ const Quote = () => {
 
     return (
         <section className="quote">
+            <h2>Random Inspirational Quote to Make You Think</h2>
         {
             text && <p className="text">
           '{text}'
