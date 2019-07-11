@@ -58,7 +58,7 @@ const Projects = () => {
                     </li>
                     <li>
                         <img src={reactPlaygroundAppImg} alt="react playground app" />
-                        <p><span>React Playground:</span> app featuring mini apps that users can try out, such as a cooking timers app that they can create, edit, or delete multiple timers</p>
+                        <p><span>React Playground:</span> app featuring mini apps that users can try out, such as a cooking timers app where users can create, edit, or delete multiple timers</p>
                         <div className="button-wrapper">
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/Pumala/react-playground">
                                 <button>Repo</button>
