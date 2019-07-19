@@ -33,7 +33,7 @@ const Projects = () => {
                         <p>
                             <span>Our Words Move: </span> 
                             blog app built in React, Redux, and Firebase where members can create, edit, and delete posts 
-                            <span className="login-creds">Test Login Email: test123@gmail.com<br/>Test Login Password: test123</span>
+                            <span className="login-creds">Demo Login Email: test123@gmail.com<br/>Demo Login Password: test123</span>
                         </p>
                         <div className="button-wrapper">
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/Pumala/clamclam-blogs">
