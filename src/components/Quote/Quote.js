@@ -40,7 +40,7 @@ const Quote = () => {
 
     return (
         <section className="quote">
-            <h2>Random Inspirational Quote to Make You Think</h2>
+            <h2>Get Inspired</h2>
         {
             text && <p className="text">
           '{text}'
