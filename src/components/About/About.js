@@ -9,7 +9,7 @@ const About = () => {
             <Header />
             <div className="about-wrapper">
                 <h1>About</h1>
-                <p>I am currently a Software Engineer at the Home Depot in Atlanta, GA. I really enjoy learning and pushing
+                <p>I am currently a Software Engineer at Tin Roof Software, Inc in Atlanta, GA. I really enjoy learning and pushing
                 my mind to think outside the box. I love aha moments, creativity, compassion, and laughter. When
                 I'm away from my computer, you can find me climbing stairs, drinking a refreshing cold beer out
                 on the porch, exploring the outdoors, or coming up with a new melody.
