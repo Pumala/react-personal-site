@@ -5,7 +5,6 @@ import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import NotFound from './components/NotFound.js/NotFound';
-import './App.scss';
 
 const App = () => {
   return (

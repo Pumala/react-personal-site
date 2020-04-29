@@ -21,7 +21,7 @@ const Header = ({ scrollPos }) => {
         }
 
 
-    }, [scrollPos])
+    }, [scrollPos, scrollY]);
 
     const toggleMenu = () => {
         setIsMenuIconOpen(!isMenuIconOpen);

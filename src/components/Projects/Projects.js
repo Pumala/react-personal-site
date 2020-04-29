@@ -85,7 +85,7 @@ const Projects = () => {
                 <ul>
                     <li>
                         <img src={personalSiteImg} alt="old personal site" />
-                        <p><span>Personal Website:</span> app showcasing past projects built in late 2016/ early 2017</p>
+                        <p><span>Personal Website:</span> app showcasing past projects built in late 2016 / early 2017</p>
                         <div className="button-wrapper">
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/Pumala/pumala.github.io">
                                 <button>Repo</button>

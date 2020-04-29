@@ -50,6 +50,7 @@
                         border: 2px solid black;
                         background-color: #fff;
                         outline: none;
+                        transition: all .5s;
                         &:first-of-type {
                             margin-right: 10px;
                         }
